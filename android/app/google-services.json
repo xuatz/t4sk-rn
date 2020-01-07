@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "449791102221",
+    "firebase_url": "https://t4sk-bb549.firebaseio.com",
+    "project_id": "t4sk-bb549",
+    "storage_bucket": "t4sk-bb549.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449791102221:android:9dcb9128d773157112b444",
+        "android_client_info": {
+          "package_name": "com.t4skrn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449791102221-sd1sqpjrogvf6b4tlmddgmjb1h4l5n1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJDF1Nd-VtFcdwgS2kUG4uHx_fd6irWlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449791102221-sd1sqpjrogvf6b4tlmddgmjb1h4l5n1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
