@@ -13,7 +13,8 @@
   "dependencies": {
     "@react-native-firebase/app": "6.2.0",
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "0.61.5",
+    "react-native-push-notification": "3.1.9"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -29,5 +30,9 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
   }
 }

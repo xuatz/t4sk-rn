@@ -1019,6 +1019,13 @@
     eslint-plugin-react-native "3.6.0"
     prettier "1.16.4"
 
+"@react-native-community/push-notification-ios@^1.0.1":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@react-native-community/push-notification-ios/-/push-notification-ios-1.0.4.tgz#eaa43196c4d76b0dc8616724dca555ab64c63a77"
+  integrity sha512-a1Gdrnsk2bLdAiH/3iZEKlZLouEjBToVgphaOpAhhX6GhF/8cVTrwZ6Rxyg4j23n3br1rDpvE1l4VDdDwU9Aow==
+  dependencies:
+    invariant "^2.2.4"
+
 "@react-native-firebase/app-types@6.2.0":
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/app-types/-/app-types-6.2.0.tgz#4d3c0e7fa4e4f00061c52b1a32d76e85e5db9f2c"
@@ -5630,6 +5637,13 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
+
+react-native-push-notification@3.1.9:
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/react-native-push-notification/-/react-native-push-notification-3.1.9.tgz#760ee06e743fef74fc9fcb672dac40794fdc4c47"
+  integrity sha512-YpEg9AYBjNgJtHRgHKR0xPB7kk3Gj0uSjUxd0feOIvd7wrfR+zeiBM4NZonGmjlAG6thaE37dfAG5qcsONFM7w==
+  dependencies:
+    "@react-native-community/push-notification-ios" "^1.0.1"
 
 react-native@0.61.5:
   version "0.61.5"
