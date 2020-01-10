@@ -8,8 +8,7 @@
 
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
-
-import firebase from '@react-native-firebase/app';
+import PushNotification from 'react-native-push-notification';
 
 // TODO(you): import any additional firebase services that you require for your app, e.g for auth:
 //    1) install the npm package: `yarn add @react-native-firebase/auth@alpha` - you do not need to
@@ -31,8 +30,15 @@ const firebaseCredentials = Platform.select({
 
 type Props = {};
 
+PushNotification.localNotificationSchedule({
+  //... You can use all the options from localNotifications
+  message: 'My Notification Message', // (required)
+  date: new Date(Date.now() + 1000 * 10), // in 10 secs
+});
+
 export default class App extends Component<Props> {
   render() {
+    console.log('raichu');
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native + Firebase!</Text>
