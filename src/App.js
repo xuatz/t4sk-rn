@@ -8,7 +8,8 @@
 
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
-import PushNotification from 'react-native-push-notification';
+import firebase from '@react-native-firebase/app';
+// import PushNotification from 'react-native-push-notification';
 
 // TODO(you): import any additional firebase services that you require for your app, e.g for auth:
 //    1) install the npm package: `yarn add @react-native-firebase/auth@alpha` - you do not need to
@@ -30,11 +31,11 @@ const firebaseCredentials = Platform.select({
 
 type Props = {};
 
-PushNotification.localNotificationSchedule({
-  //... You can use all the options from localNotifications
-  message: 'My Notification Message', // (required)
-  date: new Date(Date.now() + 1000 * 10), // in 10 secs
-});
+// PushNotification.localNotificationSchedule({
+//   //... You can use all the options from localNotifications
+//   message: 'My Notification Message', // (required)
+//   date: new Date(Date.now() + 1000 * 60 * 60 * 6), // in 6 hours
+// });
 
 export default class App extends Component<Props> {
   render() {
