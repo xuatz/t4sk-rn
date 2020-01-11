@@ -1,11 +1,3 @@
-/**
- * Sample React Native App with Firebase
- * https://github.com/invertase/react-native-firebase
- *
- * @format
- * @flow
- */
-
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import firebase from '@react-native-firebase/app';
@@ -29,13 +21,13 @@ const firebaseCredentials = Platform.select({
   android: 'https://invertase.link/firebase-android',
 });
 
-type Props = {};
-
 // PushNotification.localNotificationSchedule({
 //   //... You can use all the options from localNotifications
 //   message: 'My Notification Message', // (required)
 //   date: new Date(Date.now() + 1000 * 60 * 60 * 6), // in 6 hours
 // });
+
+type Props = {};
 
 export default class App extends Component<Props> {
   render() {
