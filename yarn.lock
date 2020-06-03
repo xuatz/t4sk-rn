@@ -858,10 +858,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@nozbe/watermelondb@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@nozbe/watermelondb/-/watermelondb-0.15.0.tgz#b5f2f89b5a7a4edf62f7c678c0f93737e02db2f2"
-  integrity sha512-W16K+R/jF6AWiqkCoCy6jyK3chZ/3uQ7D3fFIhFB6y+o9hjrNxRDUpz3jECm4P8H+StfW2e4YBogl1LA3UtaqQ==
+"@nozbe/watermelondb@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@nozbe/watermelondb/-/watermelondb-0.15.1.tgz#5129976bae4dc0ccf57d5534c76f3f4eb5ce9245"
+  integrity sha512-Fot258CCgwfBPkczliA//B+U/objd0PmEo2yT3H4fKWtorhYAr8FsgOSElw+c+ua6MSOfvgLg3Nz4RvIcgVcdA==
   dependencies:
     lodash.clonedeep "^4.5.0"
     lokijs "git+https://github.com/Nozbe/LokiJS.git#384b80f"
